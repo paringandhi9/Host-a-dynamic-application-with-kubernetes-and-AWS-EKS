@@ -9,7 +9,7 @@ This repository contains the configuration and deployment scripts for a dynamic 
 ## Architecture Overview
 The application runs within an AWS Virtual Private Cloud (VPC) with a multi-AZ setup for high availability. Traffic is routed through a Network Load Balancer to an EKS cluster, and data persistence is handled by Amazon RDS with master and standby instances across different subnets.
 
-![Architecture Diagram](./5._Host_a_Dynamic_Web_App_on_AWS_with_Kubernetes_and_Amazon_EKS.png)
+![Architecture Diagram](5._Host_a_Dynamic_Web_App_on_AWS_with_Kubernetes_and_Amazon_EKS (1).png)
 
 ## Features
 - High Availability across multiple AWS Availability Zones.
